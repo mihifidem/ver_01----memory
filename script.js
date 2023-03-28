@@ -72,4 +72,7 @@ function readMemory(){
   input.value = memory;
 }
 
+function lessMemory(){
+  memory -= parseFloat(input.value);
+}
 
