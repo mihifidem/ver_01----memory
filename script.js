@@ -1,5 +1,6 @@
 var temporal = 0;
 var operacion = '';
+memory = 0;
 
 function clearInput() {
   if (input.value != '') {
@@ -63,6 +64,12 @@ function igual() {
   }                    
 }
 
+function addMemory(){
+  memory += parseFloat(input.value);
+}
 
+function readMemory(){
+  input.value = memory;
+}
 
 
