@@ -76,3 +76,6 @@ function lessMemory(){
   memory -= parseFloat(input.value);
 }
 
+function clearMemory(){
+  memory = 0;
+}
